@@ -1,0 +1,32 @@
+{
+  "name": "kwky-base-model",
+  "version": "1.0.0",
+  "description": "kwky base model",
+  "main": "./build/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "author": "Kimman wky",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongoose": "^5.2.19",
+    "@types/mongoose-paginate": "^5.0.6",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^4.0.2",
+    "gulp-uglify-es": "^1.0.1",
+    "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.8.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "mongoose": "^5.3.4",
+    "mongoose-autopopulate": "^0.8.2",
+    "mongoose-paginate": "^5.0.3",
+    "randomstring": "^1.1.5",
+    "shortid": "^2.2.13",
+    "uuid": "^3.3.2"
+  }
+}
