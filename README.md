@@ -1,0 +1,1 @@
+kwky-base-model
