@@ -1,5 +1,5 @@
 
-import { ENUM_PAGING_MODE } from './../lib/mongoose-pagination';
+import { ENUM_PAGING_MODE } from '../lib/mongoose-pagination';
 
 export interface IPaginationOptions {
   mode?: ENUM_PAGING_MODE;

@@ -1,5 +1,4 @@
 import * as mongoose from 'mongoose';
-// import * as cacheServer from './core/cache';
 
 export function connect(uri: string, options?: any, next?: (err?: any) => void): void {
   mongoose.connect(uri, options, (err) => {
@@ -10,9 +9,6 @@ export function connect(uri: string, options?: any, next?: (err?: any) => void):
 
     console.log(`Connected to - ${uri}`);
     (<any>mongoose).Promise = global.Promise;
-
-    // TODO: add cache server; disabled because of pagination query duplicate issue
-    // cacheServer.init(cache);
 
     if (next) return next();
   });
